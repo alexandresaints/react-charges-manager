@@ -42,7 +42,7 @@ export const InfoArea = ({currentMonth, onMonthChange, income, expense}: Props) 
                     <option>20 por página</option>
                     <option>30 por página</option>
                 </select>
-                <span>Total: 100 resultados</span>
+                <span className="Total">Total: 100 resultados</span>
                 <ul>
                     <li className="final" onClick={handlePrevMonth}>◀</li>
                     <li>1</li>

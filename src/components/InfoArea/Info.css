@@ -9,6 +9,11 @@ select:focus{
     outline: none;
 }
 
+.Total{
+    font-weight: bolder;
+    font-size: 11px;
+}
+
 ul{
     display: flex;
     flex-direction: row;

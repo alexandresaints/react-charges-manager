@@ -19,6 +19,8 @@ export const Search = styled.div`
 `
 
 export const Form = styled.div`
+    display: flex;
+    flex-direction: row;
     margin-right: 20px;
 `
 
@@ -43,7 +45,7 @@ export const Table = styled.table`
 
 export const TableHeadColumn = styled.th`
     width: 120px;
-    font-size: 15px;
+    font-size: 13px;
     padding: 10px 0px;
     text-align: center;
     color: #666666;

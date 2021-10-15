@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     flex-direction: row;
-    margin-left: 320px;
+    margin-left: 360px;
     margin-bottom: 40px;
 `
 
@@ -12,7 +12,7 @@ export const Title = styled.div`
     font-weight: bold;
     color: #66666;
     margin-bottom: 5px;
-    margin-right: 120px;
+    margin-right: 70px;
     font-size: 14px;
 `
 

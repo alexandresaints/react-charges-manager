@@ -2,6 +2,7 @@ import * as C from './styles'
 import {Item} from '../../types/Item'
 import {TableItem} from '../TableItem'
 import {RiArrowUpDownFill} from 'react-icons/ri'
+import {MdOutlineArrowBackIosNew} from 'react-icons/md'
 import './Area.css'
 
 type Props = {
@@ -14,6 +15,7 @@ export const TableArea = ({list}: Props) =>{
         <>
         
         <C.Container>
+            <span className='Back'> <MdOutlineArrowBackIosNew/> VOLTAR</span>
         <br></br><br></br>
             <C.TitleContainer>
                 <C.Title>
@@ -30,7 +32,9 @@ export const TableArea = ({list}: Props) =>{
                             <option>8 dias</option>
                             <option>9 dias</option>
                         </select>
+                        <span className="Until">De</span>
                         <input type='date' className="InputDate" value="2020-06-01"></input>
+                        <span className="Until">Até</span>
                         <input type='date' className="InputDate" value="2020-06-01"></input>
                     </C.Form>
                 </C.Search>
