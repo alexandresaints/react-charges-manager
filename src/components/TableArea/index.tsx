@@ -2,7 +2,6 @@ import * as C from './styles'
 import {Item} from '../../types/Item'
 import {TableItem} from '../TableItem'
 import {RiArrowUpDownFill} from 'react-icons/ri'
-import{BiSearch} from 'react-icons/Bi'
 import './Area.css'
 
 type Props = {

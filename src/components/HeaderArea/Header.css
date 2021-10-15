@@ -39,6 +39,11 @@
     color: rgba(102, 102, 102, 0.61);
 }
 
+.User:hover{
+    color: #f22651;
+    cursor: pointer;
+}
+
 .CPF{
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
@@ -53,6 +58,11 @@
     position: relative;
     left: 20px;
     color: rgba(102, 102, 102, 0.836);
+}
+
+.Icon:hover{
+    cursor: pointer;
+    color: #f22651;
 }
 
 .Text{

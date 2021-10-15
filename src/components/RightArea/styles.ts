@@ -22,3 +22,12 @@ font-weight: normal;
 color: #666666;
 
 `
+
+export const Div = styled.div`
+    position: relative;
+    left: 170px;
+    bottom: 30px;
+    color: #f22651;
+    display: flex;
+    flex-direction: row;
+`

@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -7,26 +11,42 @@ form{
     margin-left: 15px;
 }
 
-.Input{
-    max-width: 230px;
-    height: 0px;
+.scd-spn{
+    border: 1px solid black;
+    max-width: 160px;
+    padding: 5px;
     border-left: none;
     border-right: none;
     border-top: none;
-}
-
-.Input:focus{
-    height: 30px;
-    outline: none;
-}
-
-span{
-    font-size: 10px;
-    font-weight: bolder;
+    font-size: 11px;
+    font-weight: bold;
     color: #f22651;
     margin: 0;
 }
 
-.scd-spn{
-    color: #666666;
+.scd-spn-two{
+    border: 1px solid black;
+    max-width: 160px;
+    padding: 5px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgba(102, 102, 102, 0.76);
+    margin: 0;
+}
+
+.scd-spn-two:hover, .scd-spn:hover{
+    cursor: pointer;
+}
+
+.exit-spn{
+    position: relative;
+    font-size: 10px;
+    font-weight: bolder;
+    right: 10px;
+}
+.exit-spn:hover{
+    cursor: pointer;
 }

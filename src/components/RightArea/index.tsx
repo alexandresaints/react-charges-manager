@@ -1,5 +1,6 @@
 import * as C from './styles'
 import people from '../images/people.png'
+import {ImExit} from 'react-icons/im'
 import  './Box.css'
 
 export const RightArea = () => {
@@ -13,15 +14,14 @@ export const RightArea = () => {
         </C.Container>
 
         <form>
-        <label>
-            <span>MEU PERFIL</span>
-            <input type="text" name="name" className="Input" />
-        </label>
-        <label>
-            <span className="scd-spn">ALTERAR SENHA</span>
-            <input type="passoword" name="name" className="Input" />
-        </label>
+            <span className="scd-spn">MEU PERFIL</span>
+            <span className="scd-spn-two">ALTERAR SENHA</span>
         </form>
+        
+        <C.Div>
+            <span className="exit-spn">SAIR</span>
+            <ImExit/>
+        </C.Div>
     </>
     )
 }

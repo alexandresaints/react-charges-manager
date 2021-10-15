@@ -1,3 +1,5 @@
+
+
 nav{
     display: flex;
     flex-direction: row;
@@ -25,6 +27,13 @@ input:focus{
     background-repeat: no-repeat;
 }
 
+::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    width: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
 .InputTxt:focus{
     border: 2px solid #f22651;
 }
@@ -50,7 +59,9 @@ select{
     text-align: center;
     max-width: 80px;
     border-radius: 20px;
-    margin-left: 15px
+    margin-left: 15px;
+    font-size: 10px;
+    padding: 2px;
 }
 
 option{
