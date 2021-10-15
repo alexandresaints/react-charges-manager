@@ -1,0 +1,38 @@
+.Selected{
+    background-color: white;
+    color: #f22651;
+    height: 30px;
+    padding: 5px 10px;
+}
+
+select:focus{
+    outline: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: -6px;
+
+}
+
+li{
+    padding: 2px 7px;
+    font-size: 12px;
+    border: 0.5px solid rgba(0, 0, 0, 0.63);
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: #f22651;
+    color: white;
+}
+
+.final{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.finaltwo{
+    border-radius: 0px 10px 10px 0px;
+}

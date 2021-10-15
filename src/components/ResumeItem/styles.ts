@@ -1,18 +1,24 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: 320px;
+    margin-bottom: 40px;
 `
 
 export const Title = styled.div`
     text-align: center;
     font-weight: bold;
-    color: #888;
+    color: #66666;
     margin-bottom: 5px;
+    margin-right: 120px;
+    font-size: 14px;
 `
 
 export const Info = styled.div<{color?: string}>`
     text-align: center;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 13px;
     color: ${props => props.color ?? '#000'};
 `

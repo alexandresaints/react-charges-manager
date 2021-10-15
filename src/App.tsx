@@ -8,7 +8,8 @@ import {getCurrentMonth, filterListByMonth} from './helpers/dateFilter'
 import { TableArea } from './components/TableArea'
 import { InfoArea } from './components/InfoArea'
 import { ResumeItem } from './components/ResumeItem'
-import { InputArea } from './components/InputArea'
+import { HeaderArea } from './components/HeaderArea'
+import { RightArea } from './components/RightArea'
 
 const App = () =>{
   const [list, setList] = useState(items)
@@ -49,25 +50,33 @@ const App = () =>{
   }
 
   return (
-    <C.Container>
-      <C.Header>
-        <C.HeaderText>Sistema Financeiro</C.HeaderText>
-      </C.Header>
-      <C.Body>
+    <>
+    <C.All>
+      <C.MainContainer>
+      <C.Container>
         
-          <InfoArea
-           currentMonth={currentMonth}
-           onMonthChange={handleMonthChange}
-           income={income}
-           expense={expense}
-            />
+          <C.HeaderText>Cadastro de Cobranças</C.HeaderText>
+          <HeaderArea />
+        <C.Body>
+            <TableArea list={filteredList}/>
 
-          <InputArea onAdd={handleAddItem} />
+            <InfoArea
+            currentMonth={currentMonth}
+            onMonthChange={handleMonthChange}
+            income={income}
+            expense={expense}
+              />
 
-          <TableArea list={filteredList}/>
-
-      </C.Body>
-    </C.Container>
+        </C.Body>
+      </C.Container>
+      </C.MainContainer>
+      <C.RightContainer>
+        <C.RightBox>
+          <RightArea />
+        </C.RightBox>
+      </C.RightContainer>
+    </C.All>
+    </>
   );
 }
 

@@ -2,15 +2,19 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     background-color: #FFF;
-    box-shadow: 0px 0px 5px #CCC;
-    borde-radius: 10px;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 `
 
-export const Form = styled.form`
-    padding: 20px;
+export const SecondContainer = styled.div`
+
 `
+
+export const ItemsUser = styled.div`
+`
+
 
 export const Date = styled.text``
 export const Category = styled.select``

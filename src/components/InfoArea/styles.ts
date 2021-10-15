@@ -2,18 +2,14 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     background-color: #FFF;
-    box-shadow: 0px 0px 5px #CCC;
-    border-radius: 10px;
     padding: 20px;
-    margin-top: -40px;
-    display: flex;
     align-center: center;
 `
 
 export const MonthArea = styled.div`
-    flex: 1;
     display: flex;
     align-items: center;
+    margin-top: 70px;
 `
 
 export const MonthArrow = styled.div`
@@ -24,11 +20,17 @@ export const MonthArrow = styled.div`
 `
 
 export const MonthTitle = styled.div`
-    flex: 1;
     text-align: center;
 `
 
 export const ResumeArea = styled.div`
-flex: 2;
-display: flex;
+flex: 3;
+flex-direction: row;
+margin-bottom: 50px;
+`
+
+export const PaginateNav = styled.div`
+    display: flex;
+    justify-content: space-between;
+    color: #f22651;
 `

@@ -1,0 +1,79 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: -50px;
+    margin-right: -19px;
+}
+nav:before{
+    border: 2px solid black;
+    background-color: black;
+}
+
+input:focus{
+    outline: none;
+}
+
+.InputTxt{
+    border: 2px solid #f22651;
+    max-width: 120px;
+    border-radius: 20px;
+    margin-left: 15px;
+    background-image: url(../images/lupa.png);
+    background-size: 12px;
+    background-position-x: 105px;
+    background-position-y: 2.5px;
+    background-repeat: no-repeat;
+}
+
+.InputTxt:focus{
+    border: 2px solid #f22651;
+}
+
+.InputTxt::placeholder{
+    color: #f22651;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+select{
+    border: 2px solid #f22651;
+    background-color: #f22651;
+    min-width: 80px;
+    border-radius: 20px;
+    margin-left: 15px;
+    color: white;
+    font-weight: 200;
+}
+
+.InputDate{
+    border: 2px solid #f22651;
+    text-align: center;
+    max-width: 80px;
+    border-radius: 20px;
+    margin-left: 15px
+}
+
+option{
+    color: black;
+    background-color: white;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    top: 19px;
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    color: #666666b9;
+}
+
+a:focus{
+    border: 5px solid #f22651;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    font-weight: bolder;
+    color: #f22651;
+}

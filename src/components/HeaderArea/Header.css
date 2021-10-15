@@ -1,0 +1,60 @@
+.HeaderLink{
+    position: absolute;
+    left: 180px;
+    margin: 21px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    border: 8px solid #f22651;
+    border-left:none;
+    border-right:none;
+    border-bottom: none;
+    font-weight: bolder;
+    color: #f22651;
+}
+
+.HeaderLink:focus{
+    cursor: pointer;
+    border: 8px solid #f22651;
+    border-left:none;
+    border-right:none;
+    border-bottom: none;
+    font-weight: bolder;
+    color: #f22651;
+}
+
+.People{
+    align-self: center;
+    position: relative;
+    margin-top: 5px;
+    right: 120px;
+}
+
+.User{
+    font-size: 11px;
+    position: relative;
+    bottom: 13px;
+    left: 80px;
+    color: rgba(102, 102, 102, 0.61);
+}
+
+.CPF{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgba(102, 102, 102, 0.61);
+    left: 6px;
+    font-size: 11px;
+    top: 2px;
+}
+
+.Icon{
+    position: relative;
+    left: 20px;
+    color: rgba(102, 102, 102, 0.836);
+}
+
+.Text{
+    position: relative;
+}
